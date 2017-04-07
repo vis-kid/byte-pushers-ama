@@ -527,6 +527,7 @@ main .text-inner {
 .btn:active,
 .btn.active {
     background: #76b994 !important;
+    background: #950035 !important;
     color: #fff !important;
     border: 0;
     transition: all 150ms ease-in;
@@ -542,7 +543,7 @@ main .text-inner {
 .btn.btn-forest:focus,
 .btn.btn-forest:active,
 .btn.btn-forest.active {
-    background: #76b994 !important
+    background: #E5E5E5 !important
 }
 .btn.btn-lime:hover,
 .btn.btn-lime:focus,
@@ -1326,4 +1327,12 @@ select {
 	main {
 		height: auto;
 	}
+}
+.newsletter-wrapper {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#mce-EMAIL2 {
+  height: 51px;
 }
