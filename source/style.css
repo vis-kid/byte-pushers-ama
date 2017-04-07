@@ -527,6 +527,7 @@ main .text-inner {
 .btn:active,
 .btn.active {
     background: #76b994 !important;
+    background: #950035 !important;
     color: #fff !important;
     border: 0;
     transition: all 150ms ease-in;
