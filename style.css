@@ -627,8 +627,8 @@ main .text-inner {
     padding-left: 20px;
     padding-right: 85px;
     background: none;
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    border-radius: 6px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
 }
 footer .newsletter-wrapper,
 footer .searchform {
@@ -1334,5 +1334,5 @@ select {
   margin-right: auto;
 }
 #mce-EMAIL2 {
-  height: 51px;
+  height: 52px;
 }
