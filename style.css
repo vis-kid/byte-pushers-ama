@@ -133,7 +133,7 @@ iframe {
 }
 #preloader-percent-progress {
     margin-top: 0 !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RealText', 'Montserrat', sans-serif;
     font-weight: normal;
 }
 #preloader-bar-progress {
@@ -236,13 +236,13 @@ h6 {
     color: #fff;
     margin-bottom: 10px;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RealText', 'Montserrat', sans-serif;
     letter-spacing: -1px;
 }
 h1 {
-    font-size: 40px;
+    font-size: 60px;
     line-height: 50px;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
 }
 h2 {
     font-size: 20px;
@@ -454,7 +454,7 @@ main .text-inner {
     transition: all 150ms ease-in;
     box-shadow: none;
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RealText', 'Montserrat', sans-serif;
 }
 .btn.btn-large {
     padding: 15px 25px;
