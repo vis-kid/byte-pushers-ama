@@ -1333,6 +1333,7 @@ select {
     margin-top: 200px;
   }
 }
+
 .newsletter-wrapper {
   width: 300px;
   margin-left: auto;
@@ -1341,10 +1342,37 @@ select {
 #mce-EMAIL2 {
   height: 52px;
 }
+
 .about {
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 85px;
+  margin-top: 1em;
   text-align: left;
+}
+
+.newsletter-wrapper.large {
+  width: 60%;
+  margin-top: 40px;
+}
+
+
+@media (max-width: 992px) {
+  .about {
+    max-width: 80%;
+  }
+
+  .newsletter-wrapper.large {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
+    max-width: 100%;
+  }
+
+  .newsletter-wrapper.large {
+    width: 100%;
+  }
 }
