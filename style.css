@@ -311,6 +311,8 @@ main .text {
 main .text-inner {
     display: table-cell;
     vertical-align: middle;
+    vertical-align: top;
+    padding-top: 10%;
 }
 .inverse-wrapper {
     background: #292929;
@@ -1375,4 +1377,19 @@ select {
   .newsletter-wrapper.large {
     width: 100%;
   }
+}
+.about-link {
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+a.google-link,
+a.about-link {
+  text-decoration: underline;
+}
+
+a.google-link:hover, a.about-link:hover {
+  color: #E50050;
+  text-decoration: underline;
+  transition: color 0s;
 }
