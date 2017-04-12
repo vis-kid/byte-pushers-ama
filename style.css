@@ -133,7 +133,7 @@ iframe {
 }
 #preloader-percent-progress {
     margin-top: 0 !important;
-    font-family: 'RealText', 'Montserrat', sans-serif;
+    font-family: 'MarkPro', 'Montserrat', sans-serif;
     font-weight: normal;
 }
 #preloader-bar-progress {
@@ -236,7 +236,7 @@ h6 {
     color: #fff;
     margin-bottom: 10px;
     font-weight: 700;
-    font-family: 'RealText', 'Montserrat', sans-serif;
+    font-family: 'MarkPro', 'Montserrat', sans-serif;
     letter-spacing: -1px;
 }
 h1 {
@@ -456,7 +456,7 @@ main .text-inner {
     transition: all 150ms ease-in;
     box-shadow: none;
     display: inline-block;
-    font-family: 'RealText', 'Montserrat', sans-serif;
+    font-family: 'MarkPro', 'Montserrat', sans-serif;
 }
 .btn.btn-large {
     padding: 15px 25px;
@@ -1393,3 +1393,5 @@ a.google-link:hover, a.about-link:hover {
   text-decoration: underline;
   transition: color 0s;
 }
+
+
