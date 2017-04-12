@@ -957,11 +957,7 @@ select {
 /*-----------------------------------------------------------------------------------*/
 
 .social {
-    padding: 0;
-    margin: 0;
-    margin-bottom: -20px;
-    font-size: 0;
-    line-height: 1;
+    margin-bottom: -10px;
 }
 .social li {
     display: inline-block;
@@ -986,14 +982,14 @@ select {
     border: 0;
     height: auto !important;
     width: auto;
-    font-size: 18px;
+    font-size: 25px;
     transition: all 150ms ease-in;
 }
 .social li a {
     color: #fff
 }
 .social li a:hover {
-    color: #80c9a1 !important;
+    color: #E50050 !important;
 }
 /*-----------------------------------------------------------------------------------*/
 /*	06. DIVIDERS
@@ -1399,3 +1395,10 @@ a.google-link:hover, a.about-link:hover {
   text-decoration: underline;
   transition: color 0s;
 }
+.social li a {
+  color: white;
+}
+
+.social li a:hover {
+  color: #E50050;
+} 
