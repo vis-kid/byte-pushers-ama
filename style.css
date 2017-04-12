@@ -312,6 +312,7 @@ main .text-inner {
     display: table-cell;
     vertical-align: middle;
     vertical-align: top;
+    vertical-align: bottom;
     padding-top: 10%;
 }
 .inverse-wrapper {
@@ -1401,4 +1402,11 @@ a.google-link:hover, a.about-link:hover {
   transition: color 0s;
 }
 
+.asterisk {
+  font-size: .4em;
+  text-decoration: underline;
+}
 
+.asterisk a:hover {
+  color: #E50050;
+}
